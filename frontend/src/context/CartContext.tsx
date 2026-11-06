@@ -23,7 +23,7 @@ interface CartContextValue {
 
 const CartContext = createContext<CartContextValue | undefined>(undefined)
 
-const STORAGE_KEY = 'kiosco-el-rapido-cart'
+const STORAGE_KEY = 'kiosco-la-esquina-cart'
 
 function loadCart(): CartItem[] {
   try {

@@ -20,8 +20,8 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(
-    title="Kiosco El Rápido API",
-    description="API para el catálogo y los pedidos del Kiosco El Rápido.",
+    title="Kiosco La Esquina API",
+    description="API para el catálogo y los pedidos del Kiosco La Esquina.",
     version="1.0.0",
     lifespan=lifespan,
 )
@@ -47,7 +47,7 @@ app.add_middleware(
 @app.get("/", tags=["General"])
 def root() -> dict[str, str]:
     return {
-        "message": "API del Kiosco El Rápido",
+        "message": "API del Kiosco La Esquina",
         "docs": "/docs",
     }
 

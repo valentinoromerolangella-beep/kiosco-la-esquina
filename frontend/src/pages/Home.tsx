@@ -46,7 +46,7 @@ export default function Home() {
               <span className="hero__highlight"> al toque.</span>
             </h1>
             <p className="hero__text">
-              Bienvenido a <strong>Kiosco El Rápido</strong>. Bebidas bien frías,
+              Bienvenido a <strong>Kiosco La Esquina</strong>. Bebidas bien frías,
               snacks, golosinas y productos de todos los días. Elegí desde tu casa
               y retirá tu pedido en el mostrador.
             </p>

@@ -20,12 +20,12 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container header__inner">
-        <Link to="/" className="brand" aria-label="Kiosco El Rápido - Inicio">
+        <Link to="/" className="brand" aria-label="Kiosco La Esquina - Inicio">
           <span className="brand__logo" aria-hidden="true">
             🛒
           </span>
           <span className="brand__text">
-            Kiosco <strong>El Rápido</strong>
+            Kiosco <strong>La Esquina</strong>
           </span>
         </Link>
 

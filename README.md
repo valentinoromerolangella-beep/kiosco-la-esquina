@@ -1,4 +1,4 @@
-# 🛒 Kiosco El Rápido
+# 🛒 Kiosco La Esquina
 
 Aplicación web completa para un kiosco de barrio. Permite consultar el catálogo,
 filtrar productos por categoría, ver el detalle de cada uno, armar un carrito y
@@ -11,7 +11,7 @@ El proyecto está dividido en un **frontend SPA** (React + TypeScript + Vite) y 
 
 ## 📌 Descripción
 
-**Kiosco El Rápido** simula el comercio online de un kiosco de barrio. Los
+**Kiosco La Esquina** simula el comercio online de un kiosco de barrio. Los
 clientes pueden recorrer el catálogo, buscar productos, filtrarlos por categoría,
 revisar el stock disponible y confirmar un pedido. El backend valida la
 existencia de los productos, comprueba el stock, calcula el total con los precios
@@ -63,7 +63,7 @@ de la base de datos y descuenta las unidades vendidas.
 ## 📁 Estructura del proyecto
 
 ```text
-kiosco-el-rapido/
+kiosco-la-esquina/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -188,7 +188,7 @@ git --version
 
 ```bash
 git clone <URL-del-repositorio>
-cd kiosco-el-rapido
+cd kiosco-la-esquina
 ```
 
 ### 2. Variables de entorno (opcional)
@@ -270,7 +270,7 @@ npm run preview
 
 ## 🖥️ Ejecutar desde Visual Studio Code
 
-1. Abrir la carpeta `kiosco-el-rapido` con **Archivo → Abrir carpeta**.
+1. Abrir la carpeta `kiosco-la-esquina` con **Archivo → Abrir carpeta**.
 2. Abrir la terminal integrada con `Ctrl + ñ` (o `Ctrl + ~`).
 3. **Terminal 1 – backend:**
 
@@ -476,4 +476,4 @@ git push -u origin main
 
 ## 👤 Autor
 
-Trabajo práctico de programación — **Kiosco El Rápido**.
+Trabajo práctico de programación — **Kiosco La Esquina**.

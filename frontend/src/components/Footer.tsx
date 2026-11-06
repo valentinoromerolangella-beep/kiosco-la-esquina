@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer__brand">
           <span aria-hidden="true">🛒</span>
           <div>
-            <p className="footer__title">Kiosco El Rápido</p>
+            <p className="footer__title">Kiosco La Esquina</p>
             <p className="footer__text">
               Tu kiosco de barrio, ahora también online.
             </p>
@@ -30,7 +30,7 @@ export default function Footer() {
       </div>
 
       <div className="container footer__bottom">
-        <span>© {new Date().getFullYear()} Kiosco El Rápido. Todos los derechos reservados.</span>
+        <span>© {new Date().getFullYear()} Kiosco La Esquina. Todos los derechos reservados.</span>
         <span>Hecho con ❤️ en Argentina</span>
       </div>
     </footer>
